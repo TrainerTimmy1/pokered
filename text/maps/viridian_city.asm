@@ -45,8 +45,9 @@ _ViridianCityText_19157:: ; a44db (29:44db)
 _ViridianCityText_19175:: ; a4525 (29:4525)
 	text "Oh Grandpa! Don't"
 	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	cont "He lost all his"
+	cont "Pokédongers in a"
+	cont "PBR cancer match."
 	done
 
 _ViridianCityText_1917a:: ; a4560 (29:4560)
@@ -58,11 +59,13 @@ _ViridianCityText_1917a:: ; a4560 (29:4560)
 	done
 
 _ViridianCityText_19191:: ; a45b5 (29:45b5)
-	text "You can't go"
-	line "through here!"
+	text "Why did METAPOD"
+	line "won that match!?"
 
-	para "This is private"
-	line "property!"
+	para "I got back to the"
+	line "100 club again!"
+	cont "... Hey! Get"
+	cont "out of my way!"
 	done
 
 _ViridianCityText_191ca:: ; a45ea (29:45ea)
@@ -98,9 +101,9 @@ _TM42NoRoomText:: ; a46d7 (29:46d7)
 	done
 
 _ViridianCityText_1920a:: ; a46f9 (29:46f9)
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Ahh, I just got my"
+	line "Pokédongers back"
+	cont "and I feel great!"
 
 	para "Sure you can go"
 	line "through!"

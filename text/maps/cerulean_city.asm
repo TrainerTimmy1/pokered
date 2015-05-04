@@ -265,6 +265,13 @@ _CeruleanCityText13:: ; a53ce (29:53ce)
 	line "during evolution"
 	cont "cancels the whole"
 	cont "process."
+	cont "But please don't"
+	cont "overuse it..."
+	
+	para "There is graffiti"
+	line "below the sign"
+	cont "saying:"
+	cont "JORSUUUUUUUUUUN!!!"
 	done
 
 _CeruleanCityText16:: ; a541a (29:541a)
@@ -280,5 +287,8 @@ _CeruleanCityText17:: ; a5445 (29:5445)
 
 	para "The Tomboyish"
 	line "Mermaid!"
+	
+	para "GUYS WE HAVE TO"
+	line "BEAT MISTY!"
 	done
 

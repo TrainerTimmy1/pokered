@@ -32,7 +32,7 @@ _Route15EndBattleText2:: ; 90d0a (24:4d0a)
 
 _Route15AfterBattleText2:: ; 90d16 (24:4d16)
 	text "I'm afraid of"
-	line "BIKERs, they look"
+	line "trolls, they look"
 	cont "so ugly and mean!"
 	done
 
@@ -103,20 +103,21 @@ _Route15AfterBattleText6:: ; 90ec1 (24:4ec1)
 	done
 
 _Route15BattleText7:: ; 90eed (24:4eed)
-	text "Hey kid! C'mon!"
+	text "Hey u scrub!"
 	line "I just got these!"
+	cont "Get rekt m8!"
 	done
 
 _Route15EndBattleText7:: ; 90f0f (24:4f0f)
-	text "Why"
+	text "Y"
 	line "not?"
 	prompt
 
 _Route15AfterBattleText7:: ; 90f19 (24:4f19)
-	text "You only live"
-	line "once, so I live"
-	cont "as an outlaw!"
-	cont "TEAM ROCKET RULES!"
+	text "Bcuz YOLO,"
+	line "so I live as an"
+	cont "outlaw!"
+	cont "TEAM ROCKET RULEZ!"
 	done
 
 _Route15BattleText8:: ; 90f59 (24:4f59)

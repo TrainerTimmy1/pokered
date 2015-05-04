@@ -16,11 +16,13 @@ _BillsHouseText_1e865:: ; 8d267 (23:5267)
 	cont "What's with that"
 	cont "skeptical look?"
 
-	para "I'm not joshing"
-	line "you, I screwed up"
-	cont "an experiment and"
-	cont "got combined with"
-	cont "a #MON!"
+	para "I'm not kidding!"
+	line "I screwed up an"
+	cont "experiment on a"
+	cont "#MON releasing"
+	cont "machine and got"
+	cont "combined with a"
+	cont "#MON!"
 
 	para "So, how about it?"
 	line "Help me out here!"
@@ -45,9 +47,8 @@ _BillsHouseText_1e86f:: ; 8d391 (23:5391)
 	prompt
 
 _BillThankYouText:: ; 8d3f5 (23:53f5)
-	text "BILL: Yeehah!"
-	line "Thanks, bud! I"
-	cont "owe you one!"
+	text "BILL: Thanks, bud!"
+	line "I owe you one!"
 
 	para "So, did you come"
 	line "to see my #MON"
@@ -62,7 +63,7 @@ _BillThankYouText:: ; 8d3f5 (23:53f5)
 
 _SSTicketReceivedText:: ; 8d499 (23:5499)
 	text $52, " received"
-	line "an @"
+	line "the @"
 	TX_RAM wcf4b
 	text "!@@"
 

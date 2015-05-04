@@ -38,7 +38,7 @@ Route7Name: ; 7153a (1c:553a)
 Route8Name: ; 71542 (1c:5542)
 	db "ROUTE 8@"
 Route9Name: ; 7154a (1c:554a)
-	db "ROUTE 9@"
+	db "ROUTE 9 (THE LEDGE)@"
 Route10Name: ; 71552 (1c:5552)
 	db "ROUTE 10@"
 Route11Name: ; 7155b (1c:555b)

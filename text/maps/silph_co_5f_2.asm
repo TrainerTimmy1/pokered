@@ -30,27 +30,43 @@ _SilphCo5Text9:: ; 840a4 (21:40a4)
 	text "It's a #MON"
 	line "REPORT!"
 
-	para "#MON LAB"
-	line "created PORYGON,"
-	cont "the first virtual"
-	cont "reality #MON."
+	para "Twitch Plays"
+	line "#MON completed"
+	cont "#MON Red in"
+	cont "16 days, 7 hours"
+	cont "and 45 minutes."
+	
+	para "Its anniversary"
+	line "run took twice"
+	cont "as long in"
+	cont "39 days, 19 hours"
+	cont "and 17 minutes!"
 	done
 
 _SilphCo5Text10:: ; 840f2 (21:40f2)
 	text "It's a #MON"
 	line "REPORT!"
 
-	para "Over 160 #MON"
-	line "techniques have"
-	cont "been confirmed."
+	para "Twitch Plays"
+	line "#MON Red set a"
+	cont "world record of"
+	cont "the most number"
+	cont "of people who"
+	cont "participated in"
+	cont "one game."
+	
+	para "1,165,140 people!"
 	done
 
 _SilphCo5Text11:: ; 84134 (21:4134)
 	text "It's a #MON"
 	line "REPORT!"
 
-	para "4 #MON evolve"
-	line "only when traded"
-	cont "by link-cable."
+	para "Twitch Plays"
+	line "#MON became"
+	cont "very popular in a"
+	cont "really short time"
+	cont "because of its"
+	cont "uniqueness."
 	done
 

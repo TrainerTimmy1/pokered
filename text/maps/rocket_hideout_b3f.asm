@@ -1,6 +1,13 @@
 _RocketHideout3BattleText2:: ; 82140 (20:6140)
-	text "Stop meddling in"
-	line "TEAM ROCKET's"
+	text "Congratulations!" 
+	
+	para "You've passed"
+	line "Giovanni's Wild"
+	cont "Ride!"
+	
+	para "Anyways..."
+	line "Stop meddling in"
+	cont "TEAM ROCKET's"
 	cont "affairs!"
 	done
 

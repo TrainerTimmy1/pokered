@@ -139,6 +139,7 @@ _Route12Text11:: ; 903bc (24:43bc)
 	done
 
 _Route12Text12:: ; 903d9 (24:43d9)
-	text "SPORT FISHING AREA"
+	text "SILENCE BRIDGE"
+	line "SPORT FISHING AREA"
 	done
 

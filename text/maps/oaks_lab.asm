@@ -60,6 +60,9 @@ _OaksLabCharmanderText:: ; 94e06 (25:4e06)
 	text "So! You want the"
 	line "fire #MON,"
 	cont "CHARMANDER?"
+	
+	para "Beware of a fire"
+	line "starter curse!"
 	done
 
 _OaksLabSquirtleText:: ; 94e2f (25:4e2f)
@@ -72,6 +75,10 @@ _OaksLabBulbasaurText:: ; 94e57 (25:4e57)
 	text "So! You want the"
 	line "plant #MON,"
 	cont "BULBASAUR?"
+	
+	para "You may likely"
+	line "to be obsessed"
+	cont "by its cry!"
 	done
 
 _OaksLabMonEnergeticText:: ; 94e80 (25:4e80)
@@ -144,7 +151,7 @@ _OaksLabDeliverParcelText1:: ; 94f69 (25:4f69)
 _OaksLabDeliverParcelText2:: ; 9500f (25:500f)
 	db $0
 	para "Ah! This is the"
-	line "custom # BALL"
+	line "Lord Helix poster"
 	cont "I ordered!"
 IF DEF(_YELLOW)
 	cont "Thanks, ",$52,"!"
@@ -402,6 +409,7 @@ _OaksLabText_1d3be:: ; 954b6 (25:54b6)
 _OaksLabText_1d3c3:: ; 954e4 (25:54e4)
 	text $53, ": Yeah! Am"
 	line "I great or what?"
+	line "You got rekt, m8!"
 	prompt
 
 _OaksLabRivalToughenUpText:: ; 95502 (25:5502)

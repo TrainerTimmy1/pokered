@@ -13,6 +13,12 @@ _RocketHideout2AfterBattleTxt2:: ; 820fd (20:60fd)
 	text "The TEAM ROCKET"
 	line "HQ has 4 basement"
 	cont "floors. Can you"
+	cont "get past the"
+	cont "wild ride and"
 	cont "reach the BOSS?"
+	
+	para "Remember, THE"
+	line "WILD RIDE NEVER"
+	cont "ENDS!"
 	done
 

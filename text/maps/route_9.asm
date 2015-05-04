@@ -45,6 +45,13 @@ _Route9EndBattleText2:: ; 8e330 (23:6330)
 
 _Route9AfterBattleText2:: ; 8e343 (23:6343)
 	text "Keep walking!"
+	line "Few years ago, I"
+	cont "saw two boys who"
+	cont "never gave up"
+	cont "on passing this"
+	cont "route even though"
+	cont "how many ledges"
+	cont "this route have."
 	done
 
 _Route9BattleText3:: ; 8e352 (23:6352)
@@ -171,5 +178,7 @@ _Route9Text11:: ; 8e61e (23:661e)
 	text "ROUTE 9"
 	line "CERULEAN CITY-"
 	cont "ROCK TUNNEL"
+	
+	para "A.K.A.THE LEDGE"
 	done
 

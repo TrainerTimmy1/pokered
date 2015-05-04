@@ -13,9 +13,10 @@ _SchoolText3::
 ENDC
 
 _SchoolText2:: ; 95d40 (25:5d40)
-	text "Okay!"
-
-	para "Be sure to read"
-	line "the blackboard"
+	text "ROXANNE: Okay!"
+	line "Be sure to read"
+	cont "the blackboard"
 	cont "carefully!"
 	done
+
+; You know who Roxanne is, right? :D -TrainerTimmy

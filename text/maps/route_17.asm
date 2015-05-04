@@ -106,7 +106,8 @@ _Route17AfterBattleText7:: ; 9155f (24:555f)
 	done
 
 _Route17BattleText8:: ; 9157d (24:557d)
-	text "Be a rebel!"
+	text "Be part of the"
+	line "RIOT!"
 	done
 
 _Route17EndBattleText8:: ; 9158a (24:558a)
@@ -133,11 +134,7 @@ _Route17AfterBattleText9:: ; 915dd (24:55dd)
 	done
 
 _Route17BattleText10:: ; 91600 (24:5600)
-IF DEF(_YELLOW)
 	text "Get lost, kid!"
-ELSE
-	text "Get lost kid!"
-ENDC
 	line "I'm bushed!"
 	done
 
@@ -189,7 +186,7 @@ _Route17Text15:: ; 91747 (24:5747)
 	text "It's a notice!"
 
 	para "Don't throw the"
-	line "game, throw #"
+	line "table, throw #"
 	cont "BALLs instead!"
 	done
 

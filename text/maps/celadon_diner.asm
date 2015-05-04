@@ -27,13 +27,16 @@ _CeladonDinerText4:: ; 9dfc9 (27:5fc9)
 	done
 
 _CeladonDinerText_491a7:: ; 9e003 (27:6003)
-	text "Go ahead! Laugh!"
+	text "Haha! Go ahead!"
 
 	para "I'm flat out"
 	line "busted!"
+	
+	para "I've nothing left"
+	line "except ¥100!"
 
-	para "No more slots for"
-	line "me! I'm going"
+	para "No more Stadium"
+	line "for me! I'm going"
 	cont "straight!"
 
 	para "Here! I won't be"

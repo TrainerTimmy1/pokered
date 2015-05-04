@@ -5,6 +5,7 @@ _Lab2Text1:: ; a0eb5 (28:4eb5)
 
 	para "I think it's a"
 	line "rare, prehistoric"
-	cont "#MON!"
+	cont "#MON or even"
+	cont "a god!"
 	done
 

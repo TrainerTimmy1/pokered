@@ -80,6 +80,7 @@ _CeladonGameCornerText_48dac:: ; 9dad9 (27:5ad9)
 _CeladonGameCornerText6:: ; 9daf4 (27:5af4)
 	text "I'm having a"
 	line "wonderful time!"
+	cont "DANCE RIOT!"
 	done
 
 _CeladonGameCornerText_48dca:: ; 9db11 (27:5b11)
@@ -153,8 +154,8 @@ _CeladonGameCornerText_48e93:: ; 9dd02 (27:5d02)
 
 _CeladonGameCornerText_48e98:: ; 9dd1d (27:5d1d)
 	text "The trick is to"
-	line "watch the reels"
-	cont "closely!"
+	line "never bet on"
+	cont "ENTEI!" ; Entei exists in this gen?! Kappa
 	done
 
 _CeladonGameCornerText_48ece:: ; 9dd47 (27:5d47)
@@ -174,8 +175,20 @@ _CeladonGameCornerText_48ed8:: ; 9dd7a (27:5d7a)
 	done
 
 _CeladonGameCornerText_48f09:: ; 9ddb0 (27:5db0)
-	text "Hey!"
-
+	text "It's a poster of a"
+	line "room with many"
+	cont "spinning tiles on"
+	cont "the floor."
+	
+	para "There is a text"
+	line "written below:"
+	
+	para "DON'T FORGET,"
+	line "YOU'RE HERE"
+	cont "FOREVER..."
+	
+	para "Wait!"
+	
 	para "A switch behind"
 	line "the poster!?"
 	cont "Let's push it!@@"

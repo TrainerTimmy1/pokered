@@ -24,11 +24,13 @@ ENDC
 _MtMoon3Text_49f24:: ; 8095e (20:495e)
 	text "You want the"
 	line "DOME FOSSIL?"
+	cont "PRAISE DOME!"
 	done
 
 _MtMoon3Text_49f64:: ; 80979 (20:4979)
 	text "You want the"
 	line "HELIX FOSSIL?"
+	cont "PRAISE HELIX!"
 	done
 
 _MtMoon3Text_49f6f:: ; 80995 (20:4995)
@@ -67,8 +69,8 @@ _MtMoon3Text_49f94:: ; 80a37 (20:4a37)
 	cont "LAB."
 
 	para "They do research"
-	line "on regenerating"
-	cont "fossils."
+	line "on reviving gods"
+	cont "from fossils."
 	done
 
 _MtMoon3Text_49f99:: ; 80a93 (20:4a93)

@@ -17,10 +17,14 @@ ELSE
 	cont "catch #MON?"
 ENDC
 
-	para "My policy is an"
-	line "all-out offensive"
-	cont "with water-type"
-	cont "#MON!"
+	para "My policy is"
+	line "stopping those"
+	cont "whiny people"
+	cont "yelling about"
+	cont "beating me with"
+	cont "water-type"
+ 	cont "#MON!"
+	
 
 IF DEF(_YELLOW)
 	para "MISTY, the world-"
@@ -144,6 +148,9 @@ _CeruleanGymText_5c82a:: ; 98d0a (26:4d0a)
 	para "Or, zap them with"
 	line "electricity!"
 	done
+	
+	para "GUYS WE NEED TO"
+	line "BEAT MISTY!"
 
 _CeruleanGymText_5c82f:: ; 98db0 (26:4db0)
 	text "You beat MISTY!"

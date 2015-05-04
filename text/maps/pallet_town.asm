@@ -29,10 +29,11 @@ _PalletTownText3::
 	text "Technology is"
 	line "incredible!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "You can now play"
+	line "the same game"
+	cont "with thousands"
+	cont "of people at the"
+	cont "same time!"
 	done
 
 _PalletTownText4::
@@ -42,8 +43,8 @@ _PalletTownText4::
 
 _PalletTownText5::
 	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	line "Home of TPP's"
+	cont "RED and AIIIAAB!"
 	done
 
 _PalletTownText6::

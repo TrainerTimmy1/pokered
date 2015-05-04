@@ -103,7 +103,7 @@ _Route20AfterBattleText7:: ; 91e60 (24:5e60)
 	done
 
 _Route20BattleText8:: ; 91e7c (24:5e7c)
-	text "My boy friend gave"
+	text "My boyfriend gave"
 	line "me big pearls!"
 	done
 
@@ -115,7 +115,7 @@ _Route20EndBattleText8:: ; 91e9f (24:5e9f)
 _Route20AfterBattleText8:: ; 91eb6 (24:5eb6)
 	text "Will my pearls"
 	line "grow bigger"
-	cont "inside CLOYSTER?"
+	cont "inside CLOYSTER?" ; CLOYSTER has OP defense
 	done
 
 _Route20BattleText9:: ; 91ee3 (24:5ee3)

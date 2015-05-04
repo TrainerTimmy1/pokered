@@ -83,7 +83,7 @@ _SaffronCityText14:: ; a6518 (29:6518)
 
 _SaffronCityText15:: ; a654f (29:654f)
 	text "..."
-	line "Snore..."
+	line "SLEEP RIOT..."
 
 	para "Hah! He's taking"
 	line "a snooze!"

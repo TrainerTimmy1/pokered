@@ -74,9 +74,14 @@ _CopycatsHouse2FText3:: ; a1792 (28:5792)
 	done
 
 _CopycatsHouse2FText6:: ; a17be (28:57be)
-	text "A game with MARIO"
-	line "wearing a bucket"
-	cont "on his head!"
+	text "A TPP livestream."
+	
+	para "z33k33 is"
+	line "commanding the"
+	cont "Voices in chat to"
+	cont "grind in SEAFOAM"
+	cont "ISLANDS with"
+	cont "democracy mode!"
 	done
 
 _CopycatsHouse2FText_5cd17:: ; a17ef (28:57ef)

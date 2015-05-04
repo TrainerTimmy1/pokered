@@ -19,7 +19,7 @@ _CeruleanTrashedText_1d6b0:: ; 987e2 (26:47e2)
 	line "lost is lost!"
 
 	para "I decided to teach"
-	line "DIGLETT how to"
+	line "DIGRAT how to"
 	cont "DIG without a TM!"
 	done
 

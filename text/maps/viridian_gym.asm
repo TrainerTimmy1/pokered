@@ -1,6 +1,6 @@
 _ViridianGymText_74ace:: ; 95e09 (25:5e09)
 	text "Fwahahaha! This is"
-	line "my hideout!"
+	line "my new wild ride!"
 
 	para "I planned to"
 	line "resurrect TEAM"

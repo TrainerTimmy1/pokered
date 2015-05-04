@@ -19,9 +19,9 @@ _FuchsiaHouse1Text2:: ; 9e2f3 (27:62f3)
 	done
 
 _FuchsiaHouse1Text3:: ; 9e34d (27:634d)
-	text "BILL files his"
-	line "own #MON data"
-	cont "on his PC!"
+	text "BILL files some"
+	line "released #MON"
+	cont "data on his PC!"
 
 	para "Did he show you?"
 	done

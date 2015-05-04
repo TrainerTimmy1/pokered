@@ -749,7 +749,11 @@ _TurnPageText:: ; 88c6f (22:4c6f)
 	done
 
 _ViridianSchoolNotebookText5:: ; 88c7f (22:4c7f)
-	text "GIRL: Hey! Don't"
+	text "Fifth page..."
+	para "TrainerTimmy X"
+	line "Roxanne OTP!" ; EleGiggle :D
+	
+	para "GIRL: Hey! Don't"
 	line "look at my notes!@@"
 
 _ViridianSchoolNotebookText1:: ; 88ca3 (22:4ca3)
@@ -834,7 +838,7 @@ _IndigoPlateauHQText:: ; 88f08 (22:4f08)
 
 _RedBedroomSNESText:: ; 88f27 (22:4f27)
 	text $52, " is"
-	line "playing the SNES!"
+	line "watching TPP!"
 	cont "...Okay!"
 	cont "It's time to go!"
 	done
@@ -849,15 +853,23 @@ _Route15UpstairsBinocularsText:: ; 88f58 (22:4f58)
 	done
 
 _AerodactylFossilText:: ; 88fa7 (22:4fa7)
-	text "AERODACTYL Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "LORD AMBER Fossil"
+	para "LORD AMBER, the"
+	line "God of Balance,"
+	cont "taught the Voices"
+	cont "on how to use"
+	cont "input modes"
+	cont "wisely."
 	done
 
 _KabutopsFossilText:: ; 88fd5 (22:4fd5)
-	text "KABUTOPS Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "LORD DOME Fossil"
+	para "LORD DOME, the"
+	line "God of Democracy,"
+	cont "promoted the"
+	cont "Voices to use a"
+	cont "democracy input"
+	cont "mode."
 	done
 
 IF DEF(_YELLOW)
@@ -939,6 +951,10 @@ _ViridianBlackboardPoisonText:: ; 891de (22:51de)
 
 	para "Use an ANTIDOTE"
 	line "to cure poison!"
+	
+	para "PSN also stands"
+	line "for PlayStation"
+	cont "Network." ; WutFace D:
 	prompt
 
 _ViridianBlackbaordPrlzText:: ; 8924b (22:524b)
@@ -1109,7 +1125,7 @@ _HurtByPoisonText:: ; 89689 (22:5689)
 	prompt
 
 _HurtByBurnText:: ; 8969d (22:569d)
-	text $5a, "'s"
+	text $5a, " is"
 	line "hurt by the burn!"
 	prompt
 
@@ -1275,7 +1291,7 @@ _IsFrozenText:: ; 89920 (22:5920)
 	prompt
 
 _FullyParalyzedText:: ; 89934 (22:5934)
-	text $5A,"'s"
+	text $5A," is"
 	line "fully paralyzed!"
 	prompt
 
@@ -1305,7 +1321,7 @@ _HurtItselfText:: ; 8998e (22:598e)
 	prompt
 
 _ConfusedNoMoreText:: ; 899b0 (22:59b0)
-	text $5A,"'s"
+	text $5A," is"
 	line "confused no more!"
 	prompt
 
@@ -1393,7 +1409,7 @@ _KeptGoingAndCrashedText:: ; 89a89 (22:5a89)
 	prompt
 
 _UnaffectedText:: ; 89aa4 (22:5aa4)
-	text $59, "'s"
+	text $59, " is"
 	line "unaffected!"
 	prompt
 
@@ -1403,11 +1419,11 @@ _DoesntAffectMonText:: ; 89ab4 (22:5ab4)
 	prompt
 
 _CriticalHitText:: ; 89ac9 (22:5ac9)
-	text "Critical hit!"
+	text "Crit mattered!"
 	prompt
 
 _OHKOText:: ; 89ad8 (22:5ad8)
-	text "One-hit KO!"
+	text "IT'S AN OHKO!!!"
 	prompt
 
 _LoafingAroundText:: ; 89ae5 (22:5ae5)
@@ -1479,6 +1495,7 @@ _WithExpAllText:: ; 89bd0 (22:5bd0)
 _BoostedText:: ; 89be1 (22:5be1)
 	text "a boosted"
 	cont "@@"
+	
 _ExpPointsText:: ; 89bee (22:5bee)
 	TX_NUM wcf4b, 2, 4
 	text " EXP. Points!"
@@ -1710,6 +1727,7 @@ _AccessedBillsPCText:: ; 89f13 (22:5f13)
 
 	para "Accessed #MON"
 	line "Storage System."
+	cont "Be very careful!"
 	prompt
 
 _AccessedSomeonesPCText:: ; 89f45 (22:5f45)
@@ -1718,6 +1736,7 @@ _AccessedSomeonesPCText:: ; 89f45 (22:5f45)
 
 	para "Accessed #MON"
 	line "Storage System."
+	cont "Be very careful!"
 	prompt
 
 _AccessedMyPCText:: ; 89f7a (22:5f7a)
@@ -1879,18 +1898,18 @@ _ReleaseWhichMonText:: ; 0x8a228
 	done
 
 _OnceReleasedText:: ; 0x8a23d
-	text "Once released,"
+	text "PLEASE DON'T,"
 	line "@"
 	TX_RAM wcf4b
-	text " is"
-	cont "gone forever. OK?"
+	text " WILL"
+	cont "BE GONE FOREVER!"
 	done
 
 _MonWasReleasedText:: ; 0x8a268
 	TX_RAM wcf4b
-	text " was"
-	line "released outside."
-	cont "Bye @"
+	text " WAS"
+	line "RELEASED!"
+	cont "RIP @"
 
 _CF4BExclamationText:: ; 8a288 (22:6288)
 	TX_RAM wcf4b
@@ -2191,8 +2210,8 @@ INCLUDE "text/maps/route_24_2.asm"
 INCLUDE "text/maps/route_25.asm"
 
 _FileDataDestroyedText:: ; 945f1 (25:45f1)
-	text "The file data is"
-	line "destroyed!"
+	text "The battery save"
+	line "file is corrupted!"
 	prompt
 
 _WouldYouLikeToSaveText:: ; 9460e (25:460e)
@@ -2240,6 +2259,8 @@ _StoppedEvolvingText:: ; 946dd (25:46dd)
 	TX_RAM wcf4b
 	db $0
 	line "stopped evolving!"
+	
+	para "JORSUUUUUUUUUUN!!!"
 	prompt
 
 _IsEvolvingText:: ; 946fb (25:46fb)
@@ -2255,7 +2276,7 @@ _FellAsleepText:: ; 94715 (25:4715)
 	prompt
 
 _AlreadyAsleepText:: ; 94725 (25:4725)
-	text $59, "'s"
+	text $59, " is"
 	line "already asleep!"
 	prompt
 
@@ -2265,7 +2286,7 @@ _PoisonedText:: ; 94739 (25:4739)
 	prompt
 
 _BadlyPoisonedText:: ; 9474a (25:474a)
-	text $59, "'s"
+	text $59, " is"
 	line "badly poisoned!"
 	prompt
 
@@ -2388,7 +2409,7 @@ _NoEffectText:: ; 948c9 (25:48c9)
 	prompt
 
 _ButItFailedText:: ; 948d5 (25:48d5)
-	text "But, it failed! "
+	text "But, it failed!"
 	prompt
 
 _DidntAffectText:: ; 948e7 (25:48e7)
@@ -2402,7 +2423,7 @@ _IsUnaffectedText:: ; 948fb (25:48fb)
 	prompt
 
 _ParalyzedMayNotAttackText:: ; 9490d (25:490d)
-	text $59, "'s"
+	text $59, " is"
 	line "paralyzed! It may"
 	cont "not attack!"
 	prompt
@@ -2428,7 +2449,7 @@ _CoinsScatteredText:: ; 9497e (25:497e)
 	prompt
 
 _GettingPumpedText:: ; 9499b (25:499b)
-	text $5a, "'s"
+	text $5a, " is"
 	line "getting pumped!"
 	prompt
 
@@ -2439,11 +2460,12 @@ _WasSeededText:: ; 949af (25:49af)
 
 _EvadedAttackText:: ; 949be (25:49be)
 	text $59
-	line "evaded attack!"
+	line "avoided the"
+	cont "attack!"
 	prompt
 
 _HitWithRecoilText:: ; 949d0 (25:49d0)
-	text $5a, "'s"
+	text $5a, " is"
 	line "hit with recoil!"
 	prompt
 
@@ -2482,7 +2504,7 @@ _TransformedText:: ; 94a6c (25:4a6c)
 	prompt
 
 _LightScreenProtectedText:: ; 94a87 (25:4a87)
-	text $5a, "'s"
+	text $5a, " is"
 	line "protected against"
 	cont "special attacks!"
 	prompt
@@ -2493,7 +2515,7 @@ _ReflectGainedArmorText:: ; 94aae (25:4aae)
 	prompt
 
 _ShroudedInMistText:: ; 94abf (25:4abf)
-	text $5a, "'s"
+	text $5a, " is"
 	line "shrouded in mist!"
 	prompt
 
@@ -2711,7 +2733,7 @@ _WhichMoveToForgetText:: ; a2750 (28:6750)
 	done
 
 _AbandonLearningText:: ; a2771 (28:6771)
-	text "Abandon learning"
+	text "Stop learning"
 	line "@"
 	TX_RAM wcf4b
 	text "?"
@@ -2802,7 +2824,7 @@ _PokemonCenterFarewellText:: ; a2910 (28:6910)
 
 _CableClubNPCText7:: ; a292b (28:692b)
 	text "This area is"
-	line "reserved for 2"
+	line "reserved for"
 	cont "friends who are"
 	cont "linked by cable."
 	done
@@ -2859,7 +2881,7 @@ _CanMoveBouldersText:: ; a4051 (29:4051)
 
 _CurrentTooFastText:: ; a4069 (29:4069)
 	text "The current is"
-	line "much too fast!"
+	line "too fast!"
 	prompt
 
 _CyclingIsFunText:: ; a4088 (29:4088)
@@ -2873,14 +2895,14 @@ _FlashLightsAreaText:: ; a40a9 (29:40a9)
 	prompt
 
 _WarpToLastPokemonCenterText:: ; a40cc (29:40cc)
-	text "Warp to the last"
+	text "Warped to the last"
 	line "#MON CENTER."
 	done
 
 _CannotUseTeleportNowText:: ; a40eb (29:40eb)
 	TX_RAM wcd6d
 	text " can't"
-	line "use TELEPORT now."
+	line "TELEPORT here."
 	prompt
 
 _CannotFlyHereText:: ; a4107 (29:4107)
@@ -3351,7 +3373,7 @@ _NoTrade3Text:: ; a8274 (2a:4274)
 	done
 
 _WrongMon3Text:: ; a8284 (2a:4284)
-	text "...This is no"
+	text "...This is not"
 	line "@"
 	TX_RAM wcd13
 	text "."
@@ -3364,7 +3386,7 @@ _Thanks3Text:: ; a82bc (2a:42bc)
 IF DEF(_YELLOW)
 	text "Thanks, pal!"
 ELSE
-	text "Thanks pal!"
+	text "Thanks, pal!"
 ENDC
 	done
 

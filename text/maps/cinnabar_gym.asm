@@ -92,8 +92,7 @@ _CinnabarGymText_75994:: ; a0ac0 (28:4ac0)
 	done
 
 _CinnabarGymText_75999:: ; a0af4 (28:4af4)
-	text "I"
-	line "surrender!"
+	text "I surrender!"
 	prompt
 
 _CinnabarGymText_7599e:: ; a0b02 (28:4b02)
@@ -174,7 +173,9 @@ _CinnabarGymText_75a72:: ; a0cd2 (28:4cd2)
 
 _CinnabarGymText_75a9d:: ; a0d00 (28:4d00)
 	text "Fire is weak"
-	line "against H2O!"
+	line "against"
+	cont "dihydrogen"
+	cont "monoxide!"
 	done
 
 _CinnabarGymText_75aa2:: ; a0d1b (28:4d1b)

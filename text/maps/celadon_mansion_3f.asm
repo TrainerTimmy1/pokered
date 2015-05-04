@@ -1,22 +1,38 @@
+HACK_VERSION EQU 480 ; remember to change it in 151hack.asm as well!
+
 _ProgrammerText:: ; 9cfa4 (27:4fa4)
-	text "Me? I'm the"
+	text "Me? I'm Pigu, the"
 	line "programmer!"
+	
+	para "I wrote and"
+	line "debugged much of"
+	cont "the code for this"
+	cont "patch."
+	
+	para "It's currently on"
+	IF HACK_VERSION % 10 == 0
+		line "version ", (HACK_VERSION / 100 + "0"), ".", ((HACK_VERSION / 10) % 10 + "0"), "!"
+	ELSE
+		line "version ", (HACK_VERSION / 100 + "0"), ".", ((HACK_VERSION / 10) % 10 + "0"), ".", (HACK_VERSION % 10 + "0"), "!"
+	ENDC
 	done
 
 _GraphicArtistText:: ; 9cfbc (27:4fbc)
-	text "I'm the graphic"
-	line "artist!"
-	cont "I drew you!"
+	text "I'm Pioxys, the"
+	line "graphic artist!"
+	cont "I drew fan arts"
+	cont "and you!"
 	done
 
 _WriterText:: ; 9cfe0 (27:4fe0)
 	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	line "Isn't CAMILA A." 
+	cont "SLASH cute?"
 
-	para "I like MISTY a"
+	para "I like CLY a"
 	line "lot too!"
 
-	para "Oh, and SABRINA,"
+	para "Oh, and AOOOO,"
 	line "I like her!"
 	done
 
@@ -24,7 +40,10 @@ _GameDesignerText:: ; 9d03a (27:503a)
 	text "Is that right?"
 
 	para "I'm the game"
-	line "designer!"
+	line "director,"
+	cont "EliteAnax17,"
+	cont "also known as"
+	cont "ProjectRevoTPP!"
 
 	para "Filling up your"
 	line "#DEX is tough,"
@@ -43,14 +62,16 @@ _CompletedDexText:: ; 9d0ad (27:50ad)
 
 _CeladonMansion3Text5:: ; 9d0ed (27:50ed)
 	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	line "program written"
+	cont "in assembly"
+	cont "language! Messing"
+	cont "with it could"
+	cont "alter the game!"
 	done
 
 _CeladonMansion3Text6:: ; 9d12c (27:512c)
-	text "Someone's playing"
-	line "a game instead of"
+	text "Someone's watching"
+	line "TPP instead of"
 	cont "working!"
 	done
 
@@ -61,7 +82,8 @@ _CeladonMansion3Text7:: ; 9d159 (27:5159)
 	done
 
 _CeladonMansion3Text8:: ; 9d189 (27:5189)
-	text "GAME FREAK"
-	line "Development Room"
+	text "#MON TPP"
+	line "Version Team"
+	cont "Development Room"
 	done
 

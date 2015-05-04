@@ -81,7 +81,8 @@ _FuchsiaCityVoltorbText:: ; a6081 (29:6081)
 
 _FuchsiaCityKangaskhanText:: ; a60ac (29:60ac)
 	text "Name: KANGASKHAN"
-
+	line "A.K.A. MOM."
+	
 	para "A maternal #MON"
 	line "that raises its"
 	cont "young in a pouch"
@@ -97,17 +98,24 @@ _FuchsiaCitySlowpokeText:: ; a60fd (29:60fd)
 
 _FuchsiaCityLaprasText:: ; a612c (29:612c)
 	text "Name: LAPRAS"
-
-	para "A.K.A. the king"
-	line "of the seas."
+	line "A.K.A. Air"
+	cont "Jordan."
+	
+	para "The king of the"
+	line "seas."
 	prompt
 
 _FuchsiaCityOmanyteText:: ; a6157 (29:6157)
 	text "Name: OMANYTE"
+	line "A.K.A. HELIX!!♂"
 
 	para "A #MON that"
 	line "was resurrected"
 	cont "from a fossil."
+	cont "Its evolved form"
+	cont "is believed to be"
+	cont "a god known as"
+	cont "LORD HELIX."
 	prompt
 
 _FuchsiaCityKabutoText:: ; a6191 (29:6191)
@@ -116,6 +124,10 @@ _FuchsiaCityKabutoText:: ; a6191 (29:6191)
 	para "A #MON that"
 	line "was resurrected"
 	cont "from a fossil."
+	cont "Its evolved form"
+	cont "is believed to be"
+	cont "a god known as"
+	cont "LORD DOME."
 	prompt
 
 _FuchsiaCityText_19b2a:: ; a61ca (29:61ca)

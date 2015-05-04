@@ -7,6 +7,8 @@ _CinnabarPokecenterText1:: ; a12de (28:52de)
 	line "evolving, you can"
 	cont "stop it and leave"
 	cont "it the way it is."
+	cont "But please don't"
+	cont "overdo it."
 	done
 
 _CinnabarPokecenterText3:: ; a133e (28:533e)

@@ -1,7 +1,7 @@
 _Route16GateUpstairsText_49820:: ; 8cd49 (23:4d49)
 	text "I'm going for a"
-	line "ride with my girl"
-	cont "friend!"
+	line "ride with my"
+	cont "girlfriend!"
 	done
 
 _Route16GateUpstairsText_4982f:: ; 8cd73 (23:4d73)

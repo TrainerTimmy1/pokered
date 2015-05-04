@@ -33,8 +33,9 @@ _Museum1FText_5c233:: ; 965f1 (25:65f1)
 	text "There's a lab"
 	line "somewhere trying"
 	cont "to resurrect"
-	cont "ancient #MON"
-	cont "from AMBER."
+	cont "the ancient"
+	cont "fossil god LORD"
+	cont "AMBER from AMBER."
 	done
 
 _Museum1FText_5c238:: ; 96636 (25:6636)
@@ -65,8 +66,9 @@ _Museum1FText_5c28e:: ; 966b4 (25:66b4)
 	cont "#MON DNA!"
 
 	para "It would be great"
-	line "if #MON could"
-	cont "be resurrected"
+	line "if #MON or even"
+	cont "gods could be"
+	cont "resurrected"
 	cont "from it!"
 
 	para "But, my colleagues"

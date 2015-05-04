@@ -24,9 +24,10 @@ _RocketHideoutJessieJamesText4::
 ENDC
 
 _RocketHideout4Text_4557a:: ; 8223e (20:623e)
-	text "So! I must say, I"
-	line "am impressed you"
-	cont "got here!"
+	text "So! I must say,"
+	line "HOW THE F--- DID"
+	cont "YOU GET PAST THE"
+	cont "WILD RIDE!?"
 	done
 
 _RocketHideout4Text_4557f:: ; 8226c (20:626c)

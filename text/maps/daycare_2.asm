@@ -6,7 +6,9 @@ _DayCareMText_5643b:: ; 8c013 (23:4013)
 IF DEF(_YELLOW)
 	text "Come again."
 ELSE
-	text "come again."
+	text "Come again next"
+	line "time you need me,"
+	cont "alright?"
 ENDC
 	done
 

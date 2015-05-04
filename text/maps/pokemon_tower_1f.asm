@@ -2,7 +2,8 @@ _PokemonTower1Text1:: ; 9947f (26:547f)
 	text "#MON TOWER was"
 	line "erected in the"
 	cont "memory of #MON"
-	cont "that had died."
+	cont "that had died"
+	cont "or were released."
 	done
 
 _PokemonTower1Text2:: ; 994bc (26:54bc)
@@ -13,14 +14,15 @@ _PokemonTower1Text2:: ; 994bc (26:54bc)
 
 _PokemonTower1Text3:: ; 994e6 (26:54e6)
 	text "I came to pray"
-	line "for my CLEFAIRY."
+	line "for the Leech"
+	cont "King."
 
 	para "Sniff! I can't"
 	line "stop crying..."
 	done
 
 _PokemonTower1Text4:: ; 99524 (26:5524)
-	text "My GROWLITHE..."
+	text "My Growleerzard..."
 	line "Why did you die?"
 	done
 

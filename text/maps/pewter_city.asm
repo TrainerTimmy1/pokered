@@ -89,9 +89,10 @@ _PewterCityText7:: ; a4c4a (29:4c4a)
 	text "NOTICE!"
 
 	para "Thieves have been"
-	line "stealing #MON"
-	cont "fossils at MT."
-	cont "MOON! Please call"
+	line "stealing holy"
+	cont "#MON fossils"
+	cont "at MT. MOON!"
+	cont "Please call"
 	cont "PEWTER POLICE"
 	cont "with any info!"
 	done

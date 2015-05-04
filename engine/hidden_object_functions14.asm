@@ -26,6 +26,8 @@ ViridianSchoolNotebook: ; 529aa (14:69aa)
 	jr nz, .doneReading
 	ld hl, ViridianSchoolNotebookText4
 	call PrintText
+	call TurnPageSchoolNotebook
+	jr nz, .doneReading
 	ld hl, ViridianSchoolNotebookText5
 	call PrintText
 .doneReading

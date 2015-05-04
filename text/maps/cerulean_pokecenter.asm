@@ -3,8 +3,8 @@ _CeruleanPokecenterText1:: ; 988e5 (26:48e5)
 
 	para "I heard that"
 	line "he'll do whatever"
-	cont "it takes to get"
-	cont "rare #MON!"
+	cont "it takes to"
+	cont "release #MON!"
 	done
 
 _CeruleanPokecenterText3:: ; 9892a (26:492a)
@@ -12,14 +12,14 @@ _CeruleanPokecenterText3:: ; 9892a (26:492a)
 	line "about BILL?"
 
 	para "Everyone calls"
-	line "him a #MANIAC!"
+	line "him PC OVERLORD!"
 
 	para "I think people"
-	line "are just jealous"
-	cont "of BILL, though."
+	line "are crazy about"
+	cont "him, though."
 
 	para "Who wouldn't want"
-	line "to boast about"
-	cont "their #MON?"
+	line "their #MON"
+	cont "released?"
 	done
 

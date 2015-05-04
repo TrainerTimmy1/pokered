@@ -3,21 +3,20 @@ _SaffronGateText_1dfe7:: ; 8aa5c (22:6a5c)
 	line "Gee, I'm thirsty,"
 	cont "though!"
 
-IF DEF(_YELLOW)
-	para "Oh, wait there,"
-ELSE
-	para "Oh wait there,"
-ENDC
-	line "the road's closed."
-	done
+	para "Please give me"
+	line "something to"
+	cont "drink. Anything!"
+
+	para "I won't let you"
+	line "pass until you"
+	cont "bring it to me!"
 
 _SaffronGateText_8aaa9:: ; 8aaa9 (22:6aa9)
-	text "Whoa, boy!"
-	line "I'm parched!"
-	cont "..."
-	cont "Huh? I can have"
-	cont "this drink?"
-	cont "Gee, thanks!@@"
+	text "Oh my Helix!"
+	line "You did it!"
+	cont "Please give the"
+	cont "drink to me!"
+	cont "Thanks!@@"
 
 _SaffronGateText_1dff1:: ; 8aaef (22:6aef)
 	db $0

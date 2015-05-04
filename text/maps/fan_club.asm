@@ -77,7 +77,8 @@ IF DEF(_YELLOW)
 	cont "love them all!"
 ELSE
 	para "I have collected"
-	line "over 100 #MON!"
+	line "over 100 #MON"
+	cont "and I love TPP!"
 ENDC
 
 	para "I'm very fussy"
@@ -93,33 +94,46 @@ ELSE
 	para "Did you come"
 	line "visit to hear"
 ENDC
-	cont "about my #MON?"
+	cont "my rant on TPP?"
 	done
 
-FanClubChairStoryText::
+FanClubChairStoryText:: ; Modified to be based off of events of TPP AR
 	text "Good!"
 	line "Then listen up!"
 
-	para "My favorite"
-	line "RAPIDASH..."
+	para "People in the"
+	line "Twitch chat..."
 
-	para "It...cute..."
-	line "lovely...smart..."
-	cont "plus...amazing..."
-	cont "you think so?..."
-	cont "oh yes...it..."
-	cont "stunning..."
-	cont "kindly..."
-	cont "love it!"
+	para "those casuals..."
+	line "so annoying..."
+	cont "jumped ledges..."
+	cont "bad party..."
+	cont "right?"
+	
+	para "Daycare..."
+	line "PC trip..."
+	cont "lovely #MON..."
+	cont "released..."
+	cont "ragequits..."
+	
+	para "KAKUNA WARS!"
+	
+	para "so angry..."
+	line "awful..."
+	cont "BibleThump"	
 
-	para "Hug it...when..."
-	cont "sleeping...warm"
-	cont "and cuddly..."
-	cont "spectacular..."
-	cont "ravishing..."
+	para "Those people..."
+	line "yes... they..."
+	cont "freaking..."
+	cont "so much hate..."
+	cont "why are they..."
+	cont "Jorsun..."
+	cont "Keep... cute..."
+	cont "Tookis..."
+	cont "stream ruined..."
 	cont "...Oops! Look at"
-	cont "the time! I kept"
-	cont "you too long!"
+ 	cont "the time! I kept"
+ 	cont "you too long!"
 
 	para "Thanks for hearing"
 	line "me out! I want"
@@ -151,7 +165,7 @@ ExplainBikeVoucherText::
 FanClubNoStoryText::
 	text "Oh. Come back"
 	line "when you want to"
-	cont "hear my story!"
+	cont "hear my rants!"
 	done
 
 FanClubChairFinalText::
@@ -159,7 +173,7 @@ FanClubChairFinalText::
 
 	para "Did you come see"
 	line "me about my"
-	cont "#MON again?"
+	cont "#MON?"
 
 	para "No? Too bad!"
 	done

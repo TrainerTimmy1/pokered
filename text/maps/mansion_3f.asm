@@ -10,6 +10,12 @@ _Mansion3EndBattleText1:: ; 8541c (21:541c)
 _Mansion3AfterBattleText1:: ; 85423 (21:5423)
 	text "I wonder where"
 	line "my partner went."
+	
+	para "I once trapped"
+	line "a trainer."
+	cont "It was so funny"
+	cont "watching him"
+	cont "suffer..."
 	done
 
 _Mansion3BattleText2:: ; 85444 (21:5444)

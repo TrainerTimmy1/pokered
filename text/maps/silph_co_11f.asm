@@ -38,9 +38,11 @@ _SilphCo10Text_6231c:: ; 84f74 (21:4f74)
 	line "#MON without"
 	cont "fail!"
 
-	para "You should be"
-	line "quiet about using"
-	cont "it, though."
+	para "You should use it"
+	line "on a #MON that"
+	cont "is hard to catch,"
+	cont "not common ones"
+	cont "like GOLDEEN..."
 	done
 
 _SilphCoMasterBallNoRoomText:: ; 85013 (21:5013)
@@ -102,6 +104,9 @@ _SilphCo10Text_62335:: ; 85131 (21:5131)
 
 	para "I must go, but I"
 	line "shall return!"
+	
+	para "Get ready for"
+	line "another wild ride!"
 	done
 
 _SilphCo11BattleText1:: ; 851d6 (21:51d6)

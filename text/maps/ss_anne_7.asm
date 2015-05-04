@@ -63,8 +63,8 @@ _SSAnne7Text2:: ; 81480 (20:5480)
 	done
 
 _SSAnne7Text3:: ; 8149d (20:549d)
-	text "How to Conquer"
-	line "Seasickness..."
+	text "Burrito's fanfic"
+	line "..."
 	cont "The CAPTAIN's"
 	cont "reading this!"
 	done

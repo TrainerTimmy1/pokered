@@ -66,8 +66,8 @@ _Route25AfterBattleText2:: ; 942dc (25:42dc)
 
 _Route25BattleText3:: ; 94310 (25:4310)
 	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	line "I've got a"
+	cont "girlfriend!"
 	done
 
 _Route25EndBattleText3:: ; 94337 (25:4337)
@@ -78,21 +78,18 @@ _Route25EndBattleText3:: ; 94337 (25:4337)
 _Route25AfterBattleText3:: ; 94345 (25:4345)
 	text "Oh well. My girl"
 	line "will cheer me up."
+	
+	para "Do you have one?" ; Yes, TrainerTimmy has one! >///<
 	done
 
 _Route25BattleText4:: ; 94369 (25:4369)
-	text "Hi! My boy"
-	line "friend is cool!"
+	text "Hi! My boyfriend"
+	line "is cool!"
 	done
 
 _Route25EndBattleText4:: ; 94385 (25:4385)
-IF DEF(_YELLOW)
 	text "I'm in"
 	line "a slump!"
-ELSE
-	text "I was in"
-	line "bad condition!"
-ENDC
 	prompt
 
 _Route25AfterBattleText4:: ; 9439e (25:439e)
