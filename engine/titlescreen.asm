@@ -37,11 +37,11 @@ LoadTitlescreenGraphics: ; 42dd (1:42dd)
 	call LoadFontTilePatterns
 	ld hl, NintendoCopyrightLogoGraphics ; $60c8
 	ld de, vTitleLogo2 + $100
-	ld bc, $50
+	ld bc, $70 ; sends 1st 7 tiles of NintendoCopyrightLogoGraphics ("©1995-2015") into VRAM
 	ld a, BANK(NintendoCopyrightLogoGraphics)
 	call FarCopyData2
 	ld hl, GamefreakLogoGraphics ; $61f8
-	ld de, vTitleLogo2 + $100 + $50
+	ld de, vTitleLogo2 + $100 + $70 ; makes room for 2 more tiles in title screen row 17
 	ld bc, $90
 	ld a, BANK(GamefreakLogoGraphics)
 	call FarCopyData2
@@ -108,7 +108,7 @@ ENDC
 	jr .asm_438f
 
 .titlescreenTilemap ; 437f (1:437f)
-	db $41,$42,$43,$42,$44,$42,$45,$46,$47,$48,$49,$4A,$4B,$4C,$4D,$4E ; ©'95.'96.'98 GAME FREAK inc.
+	db $41,$42,$43,$44,$45,$46,$47,$48,$49,$4A,$4B,$4C,$4D,$4E,$4F,$50 ; ©1995-2015 GAME FREAK inc.
 
 .asm_438f
 	call SaveScreenTilesToBuffer2
@@ -381,14 +381,14 @@ LoadCopyrightTiles: ; 4541 (1:4541)
 	jp PlaceString
 
 CopyrightTextString: ; 4556 (1:4556)
-	db   $60,$61,$62,$61,$63,$61,$64,$7F,$65,$66,$67,$68,$69,$6A             ; ©'95.'96.'98 Nintendo
-	next $60,$61,$62,$61,$63,$61,$64,$7F,$6B,$6C,$6D,$6E,$6F,$70,$71,$72     ; ©'95.'96.'98 Creatures inc.
-	next $60,$61,$62,$61,$63,$61,$64,$7F,$73,$74,$75,$76,$77,$78,$79,$7A,$7B ; ©'95.'96.'98 GAME FREAK inc.
+	db   $60,$61,$62,$63,$64,$65,$66,$7F,$67,$68,$69,$6A,$6B,$6C           ; ©1995-2015 Nintendo
+	next $60,$61,$62,$63,$64,$65,$66,$7F,$6D,$6E,$6F,$70,$71,$72,$73,$74   ; ©1995-2015 Creatures inc.
+	next $60,$61,$62,$63,$64,$65,$66,$7F,$75,$76,$77,$78,$79,$7A,$7B       ; ©1995-2015 GAME FREAK inc.
 	db   "@"
 
 INCLUDE "data/title_mons.asm"
 
-; prints version text (red, blue)
+; prints version text (red-tpp, blue)
 PrintGameVersionOnTitleScreen: ; 4598 (1:4598)
 	hlCoord 7, 8
 	ld de, VersionOnTitleScreenText
@@ -397,7 +397,7 @@ PrintGameVersionOnTitleScreen: ; 4598 (1:4598)
 ; these point to special tiles specifically loaded for that purpose and are not usual text
 VersionOnTitleScreenText: ; 45a1 (1:45a1)
 IF DEF(_RED)
-	db $60,$61,$7F,$65,$66,$67,$68,$69,"@" ; "Red Version"
+	db $60,$61,$7F,$65,$66,$67,$68,$69,"@" ; "TPP Version"
 ENDC
 IF DEF(_BLUE)
 	db $61,$62,$63,$64,$65,$66,$67,$68,"@" ; "Blue Version"
