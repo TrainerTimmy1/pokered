@@ -551,8 +551,8 @@ _PushStartText:: ; 886fc (22:46fc)
 	done
 
 _SaveOptionText:: ; 8871a (22:471a)
-	text "The SAVE option is"
-	line "on the MENU"
+	text "The SAVE option"
+	line "is on the MENU"
 	cont "screen."
 	done
 
@@ -731,19 +731,21 @@ _JustAMomentText:: ; 88bed (22:4bed)
 
 TMNotebookText:: ; 88bfd (22:4bfd)
 	text "It's a pamphlet"
-	line "on TMs."
+	line "about the SELECT"
+	cont "SECT."
 
 	para "..."
 
-	para "There are 50 TMs"
-	line "in all."
+	para "SELECT TEH UNITY!"
+	line "ELECT TO SELECT!"
 
-	para "There are also 5"
-	line "HMs that can be"
-	cont "used repeatedly."
+	para "This message was"
+	line "brought to you by"
+	cont "the SELECT SECT.@@"
 
-	para "SILPH CO.@@"
-
+	; Source of quote (by /u/Madhatter_Himself): 
+	; http://www.reddit.com/r/twitchplayspokemon/comments/35ivjj/touhoumon_moemon_day_1_discussion_thread_%E7%B4%A0%E6%95%B5%E3%81%AA%E7%BF%BB%E8%A8%B3%E7%89%87%E6%89%8B/cr5e9nn
+	
 _TurnPageText:: ; 88c6f (22:4c6f)
 	text "Turn the page?"
 	done
@@ -915,7 +917,7 @@ _LinkCableInfoText3:: ; 890e8 (22:50e8)
 	line "used for trading"
 	cont "#MON."
 	prompt
-
+	
 _ViridianSchoolBlackboardText1:: ; 89110 (22:5110)
 	text "The blackboard"
 	line "describes #MON"
@@ -1125,7 +1127,7 @@ _HurtByPoisonText:: ; 89689 (22:5689)
 	prompt
 
 _HurtByBurnText:: ; 8969d (22:569d)
-	text $5a, " is"
+	text $5a, " 's"
 	line "hurt by the burn!"
 	prompt
 
@@ -1266,8 +1268,8 @@ _MultiHitText:: ; 898aa (22:58aa)
 
 _ScaredText:: ; 898c7 (22:58c7)
 	TX_RAM wBattleMonNick
-	text " is too"
-	line "scared to move!"
+	text " is too scared"
+	line "to move!"
 	prompt
 
 _GetOutText:: ; 898e3 (22:58e3)
@@ -1291,7 +1293,7 @@ _IsFrozenText:: ; 89920 (22:5920)
 	prompt
 
 _FullyParalyzedText:: ; 89934 (22:5934)
-	text $5A," is"
+	text $5A,"'s"
 	line "fully paralyzed!"
 	prompt
 
@@ -1306,7 +1308,7 @@ _MustRechargeText:: ; 89956 (22:5956)
 	prompt
 
 _DisabledNoMoreText:: ; 89968 (22:5968)
-	text $5A,"'s"
+	text $5A," is"
 	line "disabled no more!"
 	prompt
 
@@ -1321,7 +1323,7 @@ _HurtItselfText:: ; 8998e (22:598e)
 	prompt
 
 _ConfusedNoMoreText:: ; 899b0 (22:59b0)
-	text $5A," is"
+	text $5A,"'s"
 	line "confused no more!"
 	prompt
 
@@ -1409,7 +1411,7 @@ _KeptGoingAndCrashedText:: ; 89a89 (22:5a89)
 	prompt
 
 _UnaffectedText:: ; 89aa4 (22:5aa4)
-	text $59, " is"
+	text $59, "'s"
 	line "unaffected!"
 	prompt
 
@@ -1419,11 +1421,15 @@ _DoesntAffectMonText:: ; 89ab4 (22:5ab4)
 	prompt
 
 _CriticalHitText:: ; 89ac9 (22:5ac9)
-	text "Crit mattered!"
+	text "Critical hit!"
 	prompt
 
 _OHKOText:: ; 89ad8 (22:5ad8)
 	text "IT'S AN OHKO!!!"
+	prompt
+
+_CritMatteredText::
+	text "Crit mattered!"
 	prompt
 
 _LoafingAroundText:: ; 89ae5 (22:5ae5)
@@ -1542,8 +1548,8 @@ _UnveiledGhostText:: ; 89c73 (22:5c73)
 	prompt
 
 _GhostCantBeIDdText:: ; 89c9e (22:5c9e)
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "The GHOST can't"
+	line "be identified!"
 	prompt
 
 _GoText:: ; 89cbc (22:5cbc)
@@ -1621,7 +1627,7 @@ _ClearSaveDataText:: ; 89d96 (22:5d96)
 
 _WhichFloorText:: ; 89dad (22:5dad)
 	text "Which floor do"
-	line "you want? "
+	line "you want?"
 	done
 
 IF DEF(_YELLOW)
@@ -1656,7 +1662,7 @@ ENDC
 
 _PartyMenuSwapMonText:: ; 89e1f (22:5e1f)
 	text "Move #MON"
-	line "where?"
+	line "to where?"
 	done
 
 _PotionText:: ; 89e31 (22:5e31)
@@ -1675,7 +1681,7 @@ _AntidoteText:: ; 89e4b (22:5e4b)
 
 _ParlyzHealText:: ; 89e65 (22:5e65)
 	TX_RAM wcd6d
-	text "'s"
+	text " was"
 	line "rid of paralysis!"
 	done
 
@@ -2276,7 +2282,7 @@ _FellAsleepText:: ; 94715 (25:4715)
 	prompt
 
 _AlreadyAsleepText:: ; 94725 (25:4725)
-	text $59, " is"
+	text $59, "'s"
 	line "already asleep!"
 	prompt
 
@@ -2286,7 +2292,7 @@ _PoisonedText:: ; 94739 (25:4739)
 	prompt
 
 _BadlyPoisonedText:: ; 9474a (25:474a)
-	text $59, " is"
+	text $59, "'s"
 	line "badly poisoned!"
 	prompt
 
@@ -2423,7 +2429,7 @@ _IsUnaffectedText:: ; 948fb (25:48fb)
 	prompt
 
 _ParalyzedMayNotAttackText:: ; 9490d (25:490d)
-	text $59, " is"
+	text $59, "'s"
 	line "paralyzed! It may"
 	cont "not attack!"
 	prompt
@@ -2449,7 +2455,7 @@ _CoinsScatteredText:: ; 9497e (25:497e)
 	prompt
 
 _GettingPumpedText:: ; 9499b (25:499b)
-	text $5a, " is"
+	text $5a, "'s"
 	line "getting pumped!"
 	prompt
 
@@ -2465,7 +2471,7 @@ _EvadedAttackText:: ; 949be (25:49be)
 	prompt
 
 _HitWithRecoilText:: ; 949d0 (25:49d0)
-	text $5a, " is"
+	text $5a, "'s"
 	line "hit with recoil!"
 	prompt
 
@@ -2504,7 +2510,7 @@ _TransformedText:: ; 94a6c (25:4a6c)
 	prompt
 
 _LightScreenProtectedText:: ; 94a87 (25:4a87)
-	text $5a, " is"
+	text $5a, "'s"
 	line "protected against"
 	cont "special attacks!"
 	prompt
@@ -2515,7 +2521,7 @@ _ReflectGainedArmorText:: ; 94aae (25:4aae)
 	prompt
 
 _ShroudedInMistText:: ; 94abf (25:4abf)
-	text $5a, " is"
+	text $5a, "'s"
 	line "shrouded in mist!"
 	prompt
 

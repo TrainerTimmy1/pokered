@@ -3942,22 +3942,37 @@ DoesntAffectMonText: ; 3dc57 (f:5c57)
 	db "@"
 
 ; if there was a critical hit or an OHKO was successful, print the corresponding text
+; Prints "Crit Mattered!" if crit move by player reduces enemy mon's HP to 0
+; Thanks to pigdevil2010 for the code, TrainerTimmy is still an ASM n00b :(
 PrintCriticalOHKOText: ; 3dc5c (f:5c5c)
 	ld a, [wCriticalHitOrOHKO]
 	and a
 	jr z, .done ; do nothing if there was no critical hit or successful OHKO
 	dec a
 	add a
-	ld hl, CriticalOHKOTextPointers
-	ld b, $0
+	jr nz, .skip ; OHKO text, no special case
 	ld c, a
-	add hl, bc
-	ld a, [hli]
-	ld h, [hl]
-	ld l, a
-	call PrintText
-	xor a
-	ld [wCriticalHitOrOHKO], a
+    ld hl, wEnemyMonHP
+    ld a, [hli]
+    ld b, [hl]
+    or b
+    ld a, c
+    jr nz, .skip ; HP is not zero
+    ld hl, CritMatteredText
+    jr .skip2
+.skip
+    add a
+    ld hl, CriticalOHKOTextPointers
+    ld b, $0
+    ld c, a
+    add hl, bc
+    ld a, [hli]
+    ld h, [hl]
+    ld l, a
+.skip2
+    call PrintText
+    xor a
+    ld [wCriticalHitOrOHKO], a
 .done
 	ld c, $14
 	jp DelayFrames
@@ -3965,13 +3980,17 @@ PrintCriticalOHKOText: ; 3dc5c (f:5c5c)
 CriticalOHKOTextPointers: ; 3dc7a (f:5c7a)
 	dw CriticalHitText
 	dw OHKOText
-
+	
 CriticalHitText: ; 3dc7e (f:5c7e)
 	TX_FAR _CriticalHitText
 	db "@"
 
 OHKOText: ; 3dc83 (f:5c83)
 	TX_FAR _OHKOText
+	db "@"
+	
+CritMatteredText:
+	TX_FAR _CritMatteredText
 	db "@"
 
 ; checks if a traded mon will disobey due to lack of badges
