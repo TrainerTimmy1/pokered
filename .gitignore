@@ -12,7 +12,7 @@
 *.gb
 
 # rgbds extras
-# *.map the required tile map file is in .map!
+*.map
 *.sym
 
 # converted image data
@@ -34,3 +34,4 @@
 # for vim configuration
 # url: http://www.vim.org/scripts/script.php?script_id=441
 .lvimrc
+*.db
