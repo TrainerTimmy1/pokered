@@ -59,6 +59,10 @@ _Route8AfterBattleText4:: ; 8dff0 (23:5ff0)
 	line "up they get ugly!"
 	cont "They shouldn't"
 	cont "evolve!"
+
+	para "Yes, I spam B like"
+	line "Jorsun from TPP!"
+	done
 	done
 
 _Route8BattleText5:: ; 8e028 (23:6028)
@@ -67,8 +71,9 @@ _Route8BattleText5:: ; 8e028 (23:6028)
 	done
 
 _Route8EndBattleText5:: ; 8e049 (23:6049)
-	text "I'll"
-	line "stay with school."
+	text "Guess"
+	line "I'll stay with"
+	line "with school."
 	prompt
 
 _Route8AfterBattleText5:: ; 8e060 (23:6060)
@@ -104,11 +109,7 @@ _Route8EndBattleText7:: ; 8e116 (23:6116)
 	prompt
 
 _Route8AfterBattleText7:: ; 8e12a (23:612a)
-if DEF(_YELLOW)
 	text "SAFFRON's gate-"
-ELSE
-	text "SAFFRON's gate"
-ENDC
 	line "keeper won't let"
 	cont "us through."
 	cont "He's so mean!"
@@ -121,7 +122,7 @@ _Route8BattleText8:: ; 8e162 (23:6162)
 
 _Route8EndBattleText8:: ; 8e181 (23:6181)
 	text "Missed"
-	line "the big score!"
+	line "that big score!"
 	prompt
 
 _Route8AfterBattleText8:: ; 8e198 (23:6198)

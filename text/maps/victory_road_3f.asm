@@ -4,12 +4,12 @@ _VictoryRoad3BattleText2:: ; 81d9b (20:5d9b)
 	done
 
 _VictoryRoad3EndBattleText2:: ; 81dbf (20:5dbf)
-	text "The rumors were"
-	line "true!"
+	text "The"
+	line "rumors were true!"
 	prompt
 
 _VictoryRoad3AfterBattleText2:: ; 81dd6 (20:5dd6)
-	text "You rekted GIOVANNI"
+	text "You rekt GIOVANNI"
 	line "of TEAM ROCKET?"
 	done
 

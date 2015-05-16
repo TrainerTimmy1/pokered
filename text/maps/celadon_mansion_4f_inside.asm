@@ -7,5 +7,10 @@ _CeladonMansion5Text1:: ; 9d1ba (27:51ba)
 	para "Get together with"
 	line "your friends and"
 	cont "trade #MON!"
+	
+	para "Or maybe not. You"
+	line "can catch all"
+	cont "#MON available"
+	cont "in the game all"
+	cont "by yourself!"
 	done
-

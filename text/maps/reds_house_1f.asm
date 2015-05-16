@@ -1,11 +1,7 @@
 _MomWakeUpText::
 	text "MOM: Right."
 	line "All kids leave"
-IF DEF(_YELLOW)
 	cont "home someday."
-ELSE
-	cont "home some day."
-ENDC
 	cont "It said so on TV."
 
 	para "PROF.OAK, next"

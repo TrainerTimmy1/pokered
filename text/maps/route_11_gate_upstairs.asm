@@ -8,8 +8,10 @@ _Route11GateUpstairsText_494a3:: ; 8c689 (23:4689)
 	cont "close to you."
 
 	para "It can't pinpoint"
-	line "it, so you have"
-	cont "to look yourself!"
+	line "it like Dowsing"
+	line "Machine, so you"
+	cont "have to look it"
+	cont "by yourself!"
 	done
 
 _BinocularsSnorlaxText::

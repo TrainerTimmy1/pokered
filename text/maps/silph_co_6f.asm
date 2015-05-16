@@ -77,7 +77,7 @@ _SilphCo6BattleText3:: ; 8435e (21:435e)
 
 	para "He shouldn't have"
 	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	cont "CHATOT DUNGEON!"
 	done
 
 _SilphCo6EndBattleText3:: ; 843a4 (21:43a4)
@@ -85,9 +85,12 @@ _SilphCo6EndBattleText3:: ; 843a4 (21:43a4)
 	prompt
 
 _SilphCo6AfterBattleText3:: ; 843ac (21:43ac)
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "CHATOT DUNGEON?"
+	
+	para "It's where the"
+	cont "baddest of the"
+	cont "Voices of TPP"
+	cont "hang out!"
 	done
 
 _SilphCo6BattleText4:: ; 843d8 (21:43d8)

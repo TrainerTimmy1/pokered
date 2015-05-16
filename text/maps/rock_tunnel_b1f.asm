@@ -4,7 +4,7 @@ _RockTunnel1BattleText1:: ; 8c33a (23:433a)
 	done
 
 _RockTunnel1EndBattleText1:: ; 8c35d (23:435d)
-	text "Doh!"
+	text "Dang!"
 	line "You win!"
 	prompt
 
@@ -85,7 +85,7 @@ _RockTunnel1BattleText6:: ; 8c526 (23:4526)
 
 _RockTunnel1EndBattleText6:: ; 8c541 (23:4541)
 	text "I'm"
-	line "out of #MON!"
+	line "blacked out!"
 	prompt
 
 _RockTunnel1AfterBattleText6:: ; 8c552 (23:4552)

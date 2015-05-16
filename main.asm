@@ -1417,7 +1417,7 @@ JapaneseMainMenuText: ; 7448 (1:7448)
 	next "さいしょから@"
 
 BattleMenuText: ; 7455 (1:7455)
-	db   "FIGHT ",$E1,$E2
+	db   "FIGHT ",$E1,$E2 ; "PKMN"
 	next "ITEM  RUN@"
 
 SafariZoneBattleMenuText: ; 7468 (1:7468)

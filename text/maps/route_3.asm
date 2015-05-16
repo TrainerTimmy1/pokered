@@ -41,6 +41,11 @@ _Route3AfterBattleText2:: ; 8d893 (23:5893)
 	line "your #MON on"
 	cont "PC? Each BOX can"
 	cont "hold 20 #MON!"
+	
+	para "And did you know"
+	line "you can also"
+	cont "release #MON"
+	cont "from the PC?"
 	done
 
 _Route3BattleText3:: ; 8d8d0 (23:58d0)
@@ -50,7 +55,7 @@ _Route3BattleText3:: ; 8d8d0 (23:58d0)
 
 _Route3EndBattleText3:: ; 8d8ee (23:58ee)
 	text "You're"
-	line "mean!"
+	line "so mean!"
 	prompt
 
 _Route3AfterBattleText3:: ; 8d8fb (23:58fb)
@@ -66,13 +71,8 @@ _Route3BattleText4:: ; 8d924 (23:5924)
 
 _Route3EndBattleText4:: ; 8d944 (23:5944)
 	text "If I"
-IF DEF(_YELLOW)
 	line "had new #MON,"
 	cont "I would've won!"
-ELSE
-	line "had new #MON I"
-	cont "would've won!"
-ENDC
 	prompt
 
 _Route3AfterBattleText4:: ; 8d966 (23:5966)
@@ -132,7 +132,7 @@ _Route3AfterBattleText7:: ; 8da91 (23:5a91)
 
 _Route3BattleText8:: ; 8dac0 (23:5ac0)
 	text "Eek! Did you"
-	line "touch me?"
+	line "just touch me?"
 	done
 
 _Route3EndBattleText8:: ; 8dad8 (23:5ad8)

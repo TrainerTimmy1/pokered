@@ -22,8 +22,9 @@ _CeladonDinerText4:: ; 9dfc9 (27:5fc9)
 	text "Munch..."
 
 	para "The man at that"
-	line "table lost it all"
-	cont "at the slots."
+	line "table went down"
+	cont "to the 100 club"
+	cont "in Stadium."
 	done
 
 _CeladonDinerText_491a7:: ; 9e003 (27:6003)
@@ -31,11 +32,10 @@ _CeladonDinerText_491a7:: ; 9e003 (27:6003)
 
 	para "I'm flat out"
 	line "busted!"
-	
-	para "I've nothing left"
-	line "except ¥100!"
+	cont "I've nothing left"
+	cont "except ¥100!"
 
-	para "No more Stadium"
+	para "No more gambling"
 	line "for me! I'm going"
 	cont "straight!"
 

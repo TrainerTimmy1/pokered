@@ -1,13 +1,14 @@
 _RocketHideout3BattleText2:: ; 82140 (20:6140)
 	text "Congratulations!" 
 	
-	para "You've passed"
-	line "Giovanni's Wild"
-	cont "Ride!"
+	para "You finally got"
+	line "off the BOSS's"
+	cont "Wild Ride!"
 	
 	para "Anyways..."
-	line "Stop meddling in"
-	cont "TEAM ROCKET's"
+	
+	para "Stop meddling in"
+	line "TEAM ROCKET's"
 	cont "affairs!"
 	done
 

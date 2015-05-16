@@ -1,4 +1,4 @@
-HACK_VERSION EQU 480 ; remember to change it in 151hack.asm as well!
+HACK_VERSION EQU 480 ; remember to match it to constants/misc_constants.asm as well!
 
 _ProgrammerText:: ; 9cfa4 (27:4fa4)
 	text "Me? I'm Pigu, the"
@@ -9,11 +9,12 @@ _ProgrammerText:: ; 9cfa4 (27:4fa4)
 	cont "the code for this"
 	cont "patch."
 	
-	para "It's currently on"
+	para "I'm currently"
+	line "working on"
 	IF HACK_VERSION % 10 == 0
-		line "version ", (HACK_VERSION / 100 + "0"), ".", ((HACK_VERSION / 10) % 10 + "0"), "!"
+		cont "version ", (HACK_VERSION / 100 + "0"), ".", ((HACK_VERSION / 10) % 10 + "0"), "!"
 	ELSE
-		line "version ", (HACK_VERSION / 100 + "0"), ".", ((HACK_VERSION / 10) % 10 + "0"), ".", (HACK_VERSION % 10 + "0"), "!"
+		cont "version ", (HACK_VERSION / 100 + "0"), ".", ((HACK_VERSION / 10) % 10 + "0"), ".", (HACK_VERSION % 10 + "0"), "!"
 	ENDC
 	done
 
@@ -40,6 +41,7 @@ _GameDesignerText:: ; 9d03a (27:503a)
 	text "Is that right?"
 
 	para "I'm the game"
+
 	line "director,"
 	cont "EliteAnax17,"
 	cont "also known as"
@@ -83,7 +85,6 @@ _CeladonMansion3Text7:: ; 9d159 (27:5159)
 
 _CeladonMansion3Text8:: ; 9d189 (27:5189)
 	text "#MON TPP"
-	line "Version Team"
+	line "VERSION TEAM"
 	cont "Development Room"
 	done
-

@@ -745,7 +745,7 @@ TMNotebookText:: ; 88bfd (22:4bfd)
 
 	; Source of quote (by /u/Madhatter_Himself): 
 	; http://www.reddit.com/r/twitchplayspokemon/comments/35ivjj/touhoumon_moemon_day_1_discussion_thread_%E7%B4%A0%E6%95%B5%E3%81%AA%E7%BF%BB%E8%A8%B3%E7%89%87%E6%89%8B/cr5e9nn
-	
+
 _TurnPageText:: ; 88c6f (22:4c6f)
 	text "Turn the page?"
 	done
@@ -917,7 +917,7 @@ _LinkCableInfoText3:: ; 890e8 (22:50e8)
 	line "used for trading"
 	cont "#MON."
 	prompt
-	
+
 _ViridianSchoolBlackboardText1:: ; 89110 (22:5110)
 	text "The blackboard"
 	line "describes #MON"
@@ -1127,7 +1127,7 @@ _HurtByPoisonText:: ; 89689 (22:5689)
 	prompt
 
 _HurtByBurnText:: ; 8969d (22:569d)
-	text $5a, " 's"
+	text $5a, "'s"
 	line "hurt by the burn!"
 	prompt
 
@@ -1268,8 +1268,8 @@ _MultiHitText:: ; 898aa (22:58aa)
 
 _ScaredText:: ; 898c7 (22:58c7)
 	TX_RAM wBattleMonNick
-	text " is too scared"
-	line "to move!"
+	text " is too"
+	line "scared to move!"
 	prompt
 
 _GetOutText:: ; 898e3 (22:58e3)
@@ -1501,7 +1501,6 @@ _WithExpAllText:: ; 89bd0 (22:5bd0)
 _BoostedText:: ; 89be1 (22:5be1)
 	text "a boosted"
 	cont "@@"
-	
 _ExpPointsText:: ; 89bee (22:5bee)
 	TX_NUM wcf4b, 2, 4
 	text " EXP. Points!"
@@ -2216,8 +2215,8 @@ INCLUDE "text/maps/route_24_2.asm"
 INCLUDE "text/maps/route_25.asm"
 
 _FileDataDestroyedText:: ; 945f1 (25:45f1)
-	text "The battery save"
-	line "file is corrupted!"
+	text "The save file"
+	line "is corrupted!"
 	prompt
 
 _WouldYouLikeToSaveText:: ; 9460e (25:460e)
@@ -2265,7 +2264,7 @@ _StoppedEvolvingText:: ; 946dd (25:46dd)
 	TX_RAM wcf4b
 	db $0
 	line "stopped evolving!"
-	
+
 	para "JORSUUUUUUUUUUN!!!"
 	prompt
 
@@ -3389,11 +3388,7 @@ _WrongMon3Text:: ; a8284 (2a:4284)
 	done
 
 _Thanks3Text:: ; a82bc (2a:42bc)
-IF DEF(_YELLOW)
 	text "Thanks, pal!"
-ELSE
-	text "Thanks, pal!"
-ENDC
 	done
 
 _AfterTrade3Text:: ; a82c9 (2a:42c9)

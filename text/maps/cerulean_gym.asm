@@ -24,7 +24,6 @@ ENDC
 	cont "beating me with"
 	cont "water-type"
  	cont "#MON!"
-	
 
 IF DEF(_YELLOW)
 	para "MISTY, the world-"
@@ -147,10 +146,10 @@ _CeruleanGymText_5c82a:: ; 98d0a (26:4d0a)
 
 	para "Or, zap them with"
 	line "electricity!"
-	done
 	
 	para "GUYS WE NEED TO"
 	line "BEAT MISTY!"
+	done
 
 _CeruleanGymText_5c82f:: ; 98db0 (26:4db0)
 	text "You beat MISTY!"

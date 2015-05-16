@@ -9,6 +9,9 @@ _SaffronGymText_5d162:: ; a1bb4 (28:5bb4)
 	para "I first learned"
 	line "to bend spoons"
 	cont "with my mind."
+	cont "and I have the"
+	cont "ability to listen"
+	cont "to the Voices."
 
 	para "I dislike fight-"
 	line "ing, but if you"
@@ -17,7 +20,7 @@ _SaffronGymText_5d162:: ; a1bb4 (28:5bb4)
 	done
 
 _SaffronGymText_5d167:: ; a1c73 (28:5c73)
-	text "I'm"
+	text "I am"
 	line "shocked!"
 	cont "But, a loss is a"
 	cont "loss."
@@ -94,7 +97,7 @@ _SaffronGymText_5d1eb:: ; a1ef0 (28:5ef0)
 
 	para "If I had that,"
 	line "I'd make a bundle"
-	cont "at the slots!"
+	cont "at the Stadium!"
 	done
 
 _SaffronGymBattleText1:: ; a1f33 (28:5f33)
@@ -235,7 +238,8 @@ _SaffronGymEndBattleText7:: ; a22ca (28:62ca)
 
 _SaffronGymAfterBattleText7:: ; a22d3 (28:62d3)
 	text "That's right! I"
-	line "used telepathy to"
-	cont "read your mind!"
+	line "used my ability"
+	cont "to listen to the"
+	cont "Voices!"
 	done
 

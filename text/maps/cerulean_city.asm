@@ -42,8 +42,8 @@ _CeruleanCityText_19677:: ; a4e07 (29:4e07)
 	cont "#DEX!"
 
 	para "After all, BILL's"
-	line "world famous as a"
-	cont "#MANIAC!"
+	line "world famous as"
+	cont "the PC OVERLORD!"
 
 	para "He invented the"
 	line "#MON Storage"
@@ -139,11 +139,7 @@ ELSE
 ENDC
 
 	para "Even our POLICE"
-IF DEF(_YELLOW)
 	line "FORCE has trouble"
-ELSE
-	line "force has trouble"
-ENDC
 	cont "with the ROCKETs!"
 	done
 
@@ -287,7 +283,7 @@ _CeruleanCityText17:: ; a5445 (29:5445)
 
 	para "The Tomboyish"
 	line "Mermaid!"
-	
+
 	para "GUYS WE HAVE TO"
 	line "BEAT MISTY!"
 	done

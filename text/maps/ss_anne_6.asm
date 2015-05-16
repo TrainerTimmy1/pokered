@@ -5,7 +5,7 @@ _SSAnne6Text1:: ; 810e5 (20:50e5)
 	done
 
 _SSAnne6Text2:: ; 81116 (20:5116)
-	text "I saw an odd ball"
+	text "I saw an odd BALL"
 	line "in the trash."
 	done
 
@@ -47,19 +47,15 @@ _SSAnne6Text_61807:: ; 81203 (20:5203)
 	prompt
 
 _SSAnne6Text_6180c:: ; 81233 (20:5233)
-IF DEF(_YELLOW)
-	text "Salade de Salmon!"
-ELSE
-	text "Salmon du Salad!"
-ENDC
+	text "Oddish du Salad!"
 
-	para "Les guests may"
-	line "gripe it's fish"
-	cont "again, however!"
+	para "Fresh from le"
+	line "great cabbage"
+	cont "harvest!"
 	done
 
 _SSAnne6Text_61811:: ; 81273 (20:5273)
-	text "Eels au Barbecue!"
+	text "Bacon au Barbecue!"
 
 	para "Les guests will"
 	line "mutiny, I fear."

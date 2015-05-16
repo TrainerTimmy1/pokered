@@ -26,7 +26,7 @@ ENDC
 _RocketHideout4Text_4557a:: ; 8223e (20:623e)
 	text "So! I must say,"
 	line "HOW THE F--- DID"
-	cont "YOU GET PAST THE"
+	cont "YOU GET PAST MY"
 	cont "WILD RIDE!?"
 	done
 
@@ -76,7 +76,7 @@ _RocketHideout4BattleText3:: ; 8238f (20:638f)
 	done
 
 _RocketHideout4EndBattleText3:: ; 823bc (20:63bc)
-	text "Ayaya!"
+	text "Ayayay!"
 	prompt
 
 _RocketHide4AfterBattleText3:: ; 823c4 (20:63c4)
