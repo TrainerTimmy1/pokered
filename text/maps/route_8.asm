@@ -73,7 +73,7 @@ _Route8BattleText5:: ; 8e028 (23:6028)
 _Route8EndBattleText5:: ; 8e049 (23:6049)
 	text "Guess"
 	line "I'll stay with"
-	line "with school."
+	cont "school."
 	prompt
 
 _Route8AfterBattleText5:: ; 8e060 (23:6060)
@@ -139,7 +139,7 @@ _Route8BattleText9:: ; 8e1d4 (23:61d4)
 	done
 
 _Route8EndBattleText9:: ; 8e1fa (23:61fa)
-	text "Stop!"
+	text "STOP!"
 
 	para "Don't be so mean"
 	line "to my CLEFAIRY!"

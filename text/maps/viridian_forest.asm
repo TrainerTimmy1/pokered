@@ -9,16 +9,12 @@ _ViridianForestText1:: ; 8031d (20:431d)
 _ViridianForestBattleText1:: ; 80359 (20:4359)
 	text "Hey! You have"
 	line "#MON! Come on!"
-IF DEF(_YELLOW)
 	cont "Let's battle 'em!"
-ELSE
-	cont "Let's battle'em!"
-ENDC
 	done
 
 _ViridianForestEndBattleText1:: ; 80387 (20:4387)
 	text "No!"
-	line "CATERPIE can't"
+	line "Even EKANS can't"
 	cont "cut it!"
 	prompt
 

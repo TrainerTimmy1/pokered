@@ -8,8 +8,9 @@ _Route11EndBattleText1:: ; 8e902 (23:6902)
 	prompt
 
 _Route11AfterBattleText1:: ; 8e91b (23:691b)
-	text "#MON is life!"
-	line "And to live is to"
+	text "#MON is love,"
+	line "#MON is life!"
+	cont "And to live is to"
 	cont "gamble!"
 	done
 

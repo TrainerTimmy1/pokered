@@ -3943,7 +3943,7 @@ DoesntAffectMonText: ; 3dc57 (f:5c57)
 
 ; if there was a critical hit or an OHKO was successful, print the corresponding text
 ; Prints "Crit Mattered!" if crit move by player reduces enemy mon's HP to 0
-; Thanks to pigdevil2010 for the code, TrainerTimmy is still an ASM n00b :(
+; Thanks to pigdevil2010 for the code, TrainerTimmy is still an ASM n00b :/
 PrintCriticalOHKOText: ; 3dc5c (f:5c5c)
 	ld a, [wCriticalHitOrOHKO]
 	and a
@@ -3961,7 +3961,6 @@ PrintCriticalOHKOText: ; 3dc5c (f:5c5c)
     ld hl, CritMatteredText
     jr .skip2
 .skip
-    add a
     ld hl, CriticalOHKOTextPointers
     ld b, $0
     ld c, a
@@ -3980,6 +3979,9 @@ PrintCriticalOHKOText: ; 3dc5c (f:5c5c)
 CriticalOHKOTextPointers: ; 3dc7a (f:5c7a)
 	dw CriticalHitText
 	dw OHKOText
+
+CritMatteredTextPointers:
+	dw CritMatteredText
 	
 CriticalHitText: ; 3dc7e (f:5c7e)
 	TX_FAR _CriticalHitText

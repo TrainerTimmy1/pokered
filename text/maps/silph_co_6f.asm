@@ -88,8 +88,8 @@ _SilphCo6AfterBattleText3:: ; 843ac (21:43ac)
 	text "CHATOT DUNGEON?"
 	
 	para "It's where the"
-	cont "baddest of the"
-	cont "Voices of TPP"
+	line "baddest of the"
+	cont "Voices from TPP"
 	cont "hang out!"
 	done
 

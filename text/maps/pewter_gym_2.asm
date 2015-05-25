@@ -60,6 +60,7 @@ _TM34ExplanationText:: ; 980c0 (26:40c0)
 	line "absorb damage in"
 	cont "battle then pay"
 	cont "it back double!"
+	done
 
 _TM34NoRoomText:: ; 981ab (26:41ab)
 	text "You don't have"

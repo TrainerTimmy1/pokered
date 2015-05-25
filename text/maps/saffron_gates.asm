@@ -10,6 +10,7 @@ _SaffronGateText_1dfe7:: ; 8aa5c (22:6a5c)
 	para "I won't let you"
 	line "pass until you"
 	cont "bring it to me!"
+	done
 
 _SaffronGateText_8aaa9:: ; 8aaa9 (22:6aa9)
 	text "Oh my Helix!"
@@ -17,7 +18,8 @@ _SaffronGateText_8aaa9:: ; 8aaa9 (22:6aa9)
 	cont "Please give the"
 	cont "drink to me!"
 	cont "Thanks!@@"
-
+	done
+	
 _SaffronGateText_1dff1:: ; 8aaef (22:6aef)
 	db $0
 	para "..."

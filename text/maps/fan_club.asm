@@ -129,7 +129,7 @@ FanClubChairStoryText:: ; Modified to be based off of events of TPP AR
 	cont "why are they..."
 	cont "Jorsun..."
 	cont "Keep... cute..."
-	cont "Tookis..."
+	cont "TPPmodbot..."
 	cont "stream ruined..."
 	cont "...Oops! Look at"
  	cont "the time! I kept"

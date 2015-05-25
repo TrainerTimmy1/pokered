@@ -1,15 +1,9 @@
 _DayCareMText_56437:: ; 8c000 (23:4000)
-	text "All right then,"
+	text "All right then."
 	line "@@"
 
 _DayCareMText_5643b:: ; 8c013 (23:4013)
-IF DEF(_YELLOW)
 	text "Come again."
-ELSE
-	text "Come again next"
-	line "time you need me,"
-	cont "alright?"
-ENDC
 	done
 
 _DayCareMText_56440:: ; 8c020 (23:4020)
@@ -35,6 +29,7 @@ _DayCareMText_5644f:: ; 8c090 (23:4090)
 
 _DayCareMText_56454:: ; 8c0ad (23:40ad)
 	text "Hey, you don't"
-	line "have enough ¥!"
+	line "have enough"
+	cont "money!"
 	done
 

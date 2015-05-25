@@ -201,14 +201,14 @@ DefaultNamesPlayer: ; 6aa8 (1:6aa8)
 	db   "NEW NAME"
 	next "RED"
 	next "ASH"
-	next "JACK"
+	next "AIIIAAB"
 	db   "@"
 
 DefaultNamesRival: ; 6abe (1:6abe)
 	db   "NEW NAME"
 	next "BLUE"
 	next "GARY"
-	next "JOHN"
+	next "DEKU"
 	db   "@"
 ENDC
 
@@ -274,9 +274,9 @@ Func_6ad6: ; 6ad6 (1:6ad6)
 	jp CopyData
 IF DEF(_RED)
 DefaultNamesPlayerList: ; 6af2 (1:6af2)
-	db "NEW NAME@RED@ASH@JACK@"
+	db "NEW NAME@RED@ASH@AIIIAAB@"
 DefaultNamesRivalList: ; 6b08 (1:6b08)
-	db "NEW NAME@BLUE@GARY@JOHN@"
+	db "NEW NAME@BLUE@GARY@DEKU@"
 ENDC
 IF DEF(_BLUE)
 DefaultNamesPlayerList: ; 6af2 (1:6af2)
